@@ -1,0 +1,217 @@
+.slider {
+	margin-left: 5%;
+	width: 95%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.slider-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 25%;
+	height: auto;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.five_cm-wrapper-first_img {
+	background-image: url("../css/img/5_Centimeters_Per_Second_Screenshot_0238.jpg");
+}
+
+.five_cm-wrapper-second_img {
+	background-image: url("../css/img/FcWFEF.jpg");
+}
+
+.five_cm-wrapper-third_img {
+	background-image: url("../css/img/sjtdKJPBgkMyI1cr2O2gbvAl8g.jpg");
+}
+
+.five_cm-wrapper-forth_img {
+	background-image: url("../css/img/sjtdKJPBgkMyI1cr2O2gbvAl8gM.jpg");
+}
+
+.slider-wrapper_button {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.slider-text {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	opacity: 0;
+	word-wrap: break-word;
+	align-items: center;
+	overflow: hidden;
+	justify-content: space-between;
+}	
+
+
+
+.slider-wrapper_button-button_nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: center;
+	text-align: bottom;
+	height: 70%;
+	font-size: 60px;
+	width: 100px;
+	color: white; 
+	line-height: 75px;
+	background-color: #64b6dc;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.slider-wrapper_button-button_nav:hover {
+	background-color: white;
+	color: #64b6dc;
+	transition: .5s;
+}
+
+.slider-text-button__button_back {
+	height: 100px;
+	width: 50%;
+	background-color: #64b6dc; 
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 13px;
+}
+
+.slider-text-button__hide_button {
+	height: 100px;
+	width: 50%;
+	background-color: #102a4d; 
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 13px;
+}
+
+.five_cm_headline {
+	margin-top: 50px;
+	font-size: 85px;
+	margin-left: 6%;
+	font-weight: 600;
+}
+
+.five_cm_headline_jap {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 65px;
+	margin-left: 6%;
+	font-weight: 200;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.slider-text-content__content {
+	width: 60%;
+	padding-top: 50px;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.indent {
+	padding-top: 18px 	
+}
+
+
+.slider-text-content__content__wide {
+	width: 70%;
+	font-size: 17px;
+	text-align: justify;
+	padding-top: 18px; 	
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.slider-text-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.slider-text-button {
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	width: 100%;
+	align-items: center;
+}
+
+
+
+.slider-wrapper-wrapper_close {
+	width: 50px;
+	height: 50px;
+	opacity: 0;
+	visibility: hidden;
+	background-color: black;
+}
+
+.slider-wrapper-wrapper_close-close {
+display: flex;
+margin-top: 20px;
+margin-right: 20px;
+width: 42px;
+height: 42px;
+opacity: 0.7; 
+}
+.slider-wrapper-wrapper_close-close:hover {
+opacity: 1;
+}
+.slider-wrapper-wrapper_close-close:before, .slider-wrapper-wrapper_close-close:after {
+content: ' ';
+height: 42px;
+width: 2px;
+background-color: white;
+}
+.slider-wrapper-wrapper_close-close:before {
+transform: rotate(45deg);
+}
+.slider-wrapper-wrapper_close-close:after {
+transform: rotate(-45deg);
+}
+
+
+.wrapper_pic_text_child {
+	display: flex;
+	justify-content: space-between;
+	width: 25%;
+	height: auto;
+	background-size: cover;
+/*	background-image: url("../css/img/550686.jpg");*/
+	overflow: hidden;
+}
+/*
+@media (max-width:1600px){
+.five_text_text{font-size:16px; width: 70%;}
+.five_text_text_2{font-size:16px; width: 70%;}
+.five_text_text_3{font-size:16px; width: 70%;}
+.five_text_text_2_2{font-size:18px; width: 70%;}
+}
+
+@media (max-width:1200px){
+.five_text_text{font-size:14px; width: 70%;}
+.five_text_text_2{font-size:14px; width: 70%;}
+.five_text_text_3{font-size:14px; width: 70%;}
+.five_text_text_2_2{font-size:16px; width: 70%;}
+}
+
+@media (max-width:960px){
+.five_text_text{font-size:13px; width: 70%; padding-top: 50px;}
+.five_text_text_2{font-size:13px; width: 70%;}
+.five_text_text_3{font-size:13px; width: 70%;}
+.five_text_text_2_2{font-size:15px; width: 70%;}
+}
+*/
